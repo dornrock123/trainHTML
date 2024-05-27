@@ -1,0 +1,79 @@
+$colorback: #ff9090;
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #151515;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.custom-rows {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #389800;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.custom-rowd {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $colorback;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.custom-col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.custom-content {
+  padding: 15px;
+  background-color: #ff9090;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.custom-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.custom-titles {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.custom-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.custom-texts {
+  font-size: 2rem;
+  line-height: 2.5;
+}
+
+.custom-bold {
+  font-weight: bold;
+}
+
+.custom-margin-top {
+  margin-top: 10px;
+}
+
+.skill-box {
+  display: flex;
+  background-color: #389800;
+  flex-direction: column;
+}
+
+.large-icon {
+  font-size: 3rem;
+}
+
+.designer-box {
+  border: 2px solid #333;
+  padding: 10px;
+  border-radius: 5px;
+}
